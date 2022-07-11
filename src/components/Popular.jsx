@@ -40,7 +40,7 @@ function Popular() {
                 perPage: 2,
               },
             },
-            arrows: false,
+            arrows: true,
             pagination: false,
             drag: "free",
             gap: "1rem",

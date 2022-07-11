@@ -40,7 +40,7 @@ function Veggie() {
                 perPage: 1,
               },
             },
-            arrows: false,
+            arrows: true,
             pagination: false,
             drag: "free",
             gap: "3rem",
