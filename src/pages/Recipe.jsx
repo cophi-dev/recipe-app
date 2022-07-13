@@ -47,8 +47,9 @@ function Recipe() {
           Ingredients
         </Button>
         {activeTab === "instructions" && (
-          <div>
+          <div className="content">
             <h3 dangerouslySetInnerHTML={{ __html: details.summary }}></h3>
+            <h3>Instructions:</h3>
             <h3 dangerouslySetInnerHTML={{ __html: details.instructions }}></h3>
           </div>
         )}
@@ -64,16 +65,22 @@ function Recipe() {
   );
 }
 const DetailWrapper = styled(motion.div)`
-  margin-top: 10rem;
+  margin-top: 5rem;
   margin-bottom: 5rem;
   display: flex;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1300px) {
     margin-top: 5rem;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+  }
+
+  .content {
+    @media screen and (max-width: 1300px) {
+      width: 90vw;
+    }
   }
 
   .active {
@@ -84,7 +91,7 @@ const DetailWrapper = styled(motion.div)`
     margin-bottom: 2rem;
   }
   li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 2.5rem;
   }
   ul {
@@ -93,10 +100,16 @@ const DetailWrapper = styled(motion.div)`
   img {
     border-radius: 2rem;
     margin-bottom: 3rem;
+    @media screen and (max-width: 1300px) {
+      width: 100vw;
+      max-width: 30rem;
+    }
   }
 
   h3 {
-    @media screen and (max-width: 1024px) {
+    font-size: 1rem;
+    font-weight: normal;
+    @media screen and (max-width: 1300px) {
       font-size: 1rem;
       font-weight: normal;
     }
@@ -113,7 +126,7 @@ const Button = styled.button`
   font-weight: 600;
   cursor: pointer;
 
-  @media screen and (max-width: 1024px) {
+  @media screen and (max-width: 1300px) {
     margin-right: 1rem;
     padding: 1rem;
   }
@@ -121,8 +134,8 @@ const Button = styled.button`
 
 const Info = styled.div`
   margin-left: 10rem;
-  @media screen and (max-width: 1024px) {
-    margin-left: 2rem;
+  @media screen and (max-width: 1300px) {
+    margin-left: 0rem;
   }
 `;
 
