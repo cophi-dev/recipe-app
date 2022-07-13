@@ -67,6 +67,15 @@ const DetailWrapper = styled(motion.div)`
   margin-top: 10rem;
   margin-bottom: 5rem;
   display: flex;
+
+  @media screen and (max-width: 1024px) {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
   .active {
     background: linear-gradient(35deg, #494949, #313131);
     color: white;
@@ -83,6 +92,14 @@ const DetailWrapper = styled(motion.div)`
   }
   img {
     border-radius: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  h3 {
+    @media screen and (max-width: 1024px) {
+      font-size: 1rem;
+      font-weight: normal;
+    }
   }
 `;
 
@@ -99,6 +116,9 @@ const Button = styled.button`
 
 const Info = styled.div`
   margin-left: 10rem;
+  @media screen and (max-width: 1024px) {
+    margin-left: 2rem;
+  }
 `;
 
 export default Recipe;
