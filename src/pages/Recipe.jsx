@@ -112,6 +112,11 @@ const Button = styled.button`
   margin-right: 2rem;
   font-weight: 600;
   cursor: pointer;
+
+  @media screen and (max-width: 1024px) {
+    margin-right: 1rem;
+    padding: 1rem;
+  }
 `;
 
 const Info = styled.div`
