@@ -1,70 +1,61 @@
-# Getting Started with Create React App
+# React recipe app deliciousss
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+- [Overview](#overview)
+- [Built With](#built-with)
+- [Features](#features)
+- [Contact](#contact)
+- [Acknowledgements](#acknowledgements)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+<img width="1603" alt="recipe" src="https://user-images.githubusercontent.com/83501136/178955983-8b73e814-af7a-4e20-8d64-8d965dab6ff3.png">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Visit the live website here: [https://deliciousss-app.netlify.app]
 
-### `npm test`
+A website to browse different recipes and and search for any specific recipe. 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<!-- TODO: Add a screenshot of the live project.
+    1. Link to a 'live demo.'
+    2. Describe your overall experience in a couple of sentences.
+    3. List a few specific technical things that you learned or improved on.
+    4. Share any other tips or guidance for others attempting this or something similar.
+ -->
 
-### `npm run build`
+### Built With
+<p float="left">
+    <img src="https://user-images.githubusercontent.com/83501136/178947440-5a78eb74-f2d6-4ede-84c3-989dbcb4749c.png" style="width:40px;"/>
+    <img src="https://user-images.githubusercontent.com/83501136/178947435-7f15c04b-2674-479b-9710-0d89b063c6e3.png" style="width:40px;"/>
+    <img src="https://user-images.githubusercontent.com/83501136/178947430-fb438ba4-b720-4726-83a7-47490046f89c.png" style="width:40px"/>
+    <img src="https://user-images.githubusercontent.com/83501136/178947438-4795fd22-ad7f-48a2-87f0-0bf8ac8e8fe2.png" style="width:40px;"/>
+</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<!-- TODO: List any MAJOR libraries/frameworks (e.g. React, Tailwind) with links to their homepages. -->
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+To build this website I used React, HTML, CSS and JavaScript. 
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Features
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+<!-- TODO: List what specific 'user problems' that this application solves. -->
+This website is part of my portfolio website [https://phillipp.eu]. You can use this website to search for a recipe or simply browse popular and/or veggie or national cuisines. After you click on a recipe, you get to the description page, where you get every information on what is needed to cook the meal and how to prepare it. The website is fully response and easy to use.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
 
-## Learn More
+<!-- TODO: Include icons and links to your RELEVANT, PROFESSIONAL 'DEV-ORIENTED' social media. LinkedIn and dev.to are minimum. -->
+- [Git profile](https://github.com/cophi-dev "Cophi Dev")
+- [Email](mailto:cophi.dev@gmail.com?subject=Hi "Hi!")
+- [Website](https://phillipp.eu "Welcome")
+- [LinkedIn](https://www.linkedin.com/in/phillipp-zarindast-35739a244/ "Welcome")
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Acknowledgements
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+The basis for this project was provided by a DevEd react tutorial. I learned a lot about the basics of React components and API calls.
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<!-- TODO: List any blog posts, tutorials or plugins that you may have used to complete the project. Only list those that had a significant impact. Obviously, we all 'Google' stuff while working on our things, but maybe something in particular stood out as a 'major contributor' to your skill set for this project. -->
